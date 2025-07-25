@@ -30,9 +30,9 @@ def transfer(value):
 
 def print_help():
     print(f'Usage: python {__file__} [lsn] ...')
-    print('Transfer string lsn to int, for example "5/559D8D30" will display "22911225136",')
+    print('Converts PostgreSQL LSNs (Log Sequence Numbers) to integers and vice-versa. ')
     print(
-        'otherwise if int value was gaven, a string will be displayed, for example "22911225136" will display "5/559D8D30".')
+        'For instance, the string 5/559D8D30 becomes 22911225136, and 22911225136 converts back to 5/559D8D30.')
 
 
 def print_value(raw, new):
