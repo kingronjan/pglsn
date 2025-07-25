@@ -4,6 +4,8 @@ A PostgreSQL LSN converter, capable of transforming LSNs into numerical formats 
 
 # Usage
 
+You can either download the `pglsn.py` file directly or copy its content and save it locally.
+
 Usage: `python pglsn.py [lsn] ...`
 
 This tool converts PostgreSQL LSNs (Log Sequence Numbers) to integers and vice-versa. 
