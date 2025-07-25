@@ -7,7 +7,7 @@ A PostgreSQL LSN converter, capable of transforming LSNs into numerical formats 
 Usage: python pglsn.py [lsn] ...
 
 This tool converts PostgreSQL LSNs (Log Sequence Numbers) to integers and vice-versa. 
-For instance, the string 5/559D8D30 becomes 22911225136, and 22911225136 converts back to 5/559D8D30.
+For instance, the string `5/559D8D30` becomes `22911225136`, and `22911225136` converts back to `5/559D8D30`.
 
 ## example
 
